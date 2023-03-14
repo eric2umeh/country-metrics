@@ -43,7 +43,7 @@ const Details = () => {
           <img src={country.map} alt={country.name} />
         </div>
         <div className={classes.weather}>
-          <h2>{weather.name}</h2>
+          <h2>{country.name}</h2>
           <img src={weather.icon} alt={weather.name} />
           <p>{weather.description}</p>
           <ul className={classes.weather_info}>
