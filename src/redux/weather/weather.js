@@ -5,7 +5,7 @@ export const fetchWeather = createAsyncThunk(
   'weather/fetch',
   async ({ lat, lon }) => {
     const response = await fetch(
-      `${weatherApiBaseUrl}?lat=${lat}&lon=${lon}&appid=${weatherApiKey}&units=metric`,
+      `${weatherApiBaseUrl}?lat=${lat}&lon=${lon}&appid=efc7d30d6d8f8050dae8859f7ba1a7f2&units=metric`,
     );
     const result = await response.json();
     const weather = {
