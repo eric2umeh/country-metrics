@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Project Demo](#project-demo)
   - [Project Presentation Video](#project-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -38,11 +39,20 @@ This is a Microverce React capstone project. Users can see a list of continent a
 
 ### Key Features <a name="key-features"></a>
 
-- **Booking, join as a member, view mission & rockets, description**
+- **View and select list of continents**
+- **View and select list of countries**
+- **View the weather of a country**
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
 - Not Available
+
+# 🚀 Project Demo <a name="project-demo"></a>
+
+- [Live Project Demo](Not Available)
+
+## Project demo picture
+![Capture](Not Available)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +69,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/eric2umeh/space-travellers-hub.git
+  git clone https://github.com/eric2umeh/country-metrics.git
 ```
 
 ### Install
@@ -68,16 +78,16 @@ Install this project with:
 
 ```sh
   cd my-folder
-  git clone https://github.com/eric2umeh/space-travellers-hub.git
+  git clone https://github.com/eric2umeh/country-metrics.git
   npm install
 ```
 # Usage:
 ### To run the project, execute the following command:
   ```sh 
-  git clone https://github.com/Anand8317/space-travellers-hub.git
+  git clone https://github.com/Anand8317/country-metrics.git
   ```
   ```sh 
-  cd space-travellers-hub
+  cd country-metrics
   ```
   ```sh 
   npm install
@@ -121,18 +131,11 @@ Install this project with:
 - Twitter: [Eric Umeohabike](https://twitter.com/King_Eric_)
 - LinkedIn: [Eric Umeohabike](https://www.linkedin.com/in/eric-umeohabike-4a510ba4/)
 
-👤 **Lugard Agu**
-
-- GitHub: [@lugard1](https://github.com/lugard1)
-- Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
-- LinkedIn: [Lugard Agu](https://linkedin.com/in/linkedinhandle)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement backend database.**
-- [ ] **Implement some awesome animations and transitions to the design.**
+- [ ] **Add some awesome animations and transitions to the design.**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -140,7 +143,7 @@ Install this project with:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the issues page [issues page](https://github.com/eric2umeh/space-travellers-hub/issues)
+Feel free to check the issues page [issues page](https://github.com/eric2umeh/country-metrics/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,8 +156,9 @@ If you like this project kindly star it, I would appreciate that.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank 
-- [ ] [Missions](https://api.spacexdata.com/v3/missions) for the endpoint
-- [ ] [Rockets](https://api.spacexdata.com/v4/rockets).
+- [ ] [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the design
+- [ ] [REST COUNTRIES](https://restcountries.com/) for the countries api.
+- [ ] [Open Weather](https://openweathermap.org/api) for the weather api.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
