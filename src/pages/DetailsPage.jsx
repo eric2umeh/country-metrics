@@ -1,7 +1,10 @@
 import React from 'react';
+import Details from '../components/details/Details';
 
 const DetailsPage = () => (
-  <div>DetailsPage</div>
+  <section>
+    <Details />
+  </section>
 );
 
 export default DetailsPage;
