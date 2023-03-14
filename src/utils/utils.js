@@ -24,7 +24,7 @@ const imgMap = (region) => {
       return antarcticaMap;
 
     default:
-      return asiaMap;
+      return africaMap;
   }
 };
 
