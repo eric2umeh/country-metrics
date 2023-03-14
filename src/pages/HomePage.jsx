@@ -1,7 +1,10 @@
 import React from 'react';
+import Countries from '../components/countries/Countries';
 
 const HomePage = () => (
-  <div>HomePage</div>
+  <section>
+    <Countries />
+  </section>
 );
 
 export default HomePage;
