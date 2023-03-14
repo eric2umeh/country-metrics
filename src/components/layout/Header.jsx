@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { IoMdSettings, IoIosArrowBack } from 'react-icons/io';
-import { TiMicrophone } from 'react-icons/ti';
 import classes from './Header.module.css';
 
 const Header = () => {
@@ -24,9 +23,6 @@ const Header = () => {
             </NavLink>
           </li>
           <li className={`${classes.nav_items} ${classes.actions}`}>
-            <button type="button">
-              <TiMicrophone />
-            </button>
             <button type="button">
               <IoMdSettings />
             </button>
