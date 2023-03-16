@@ -43,6 +43,7 @@
 .region_info h2 {
   font-size: 2rem;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .countries {
