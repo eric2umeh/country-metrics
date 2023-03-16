@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
   height: 85vh;
-  background: #d24179;
   padding: 1rem;
   border-radius: 5px;
   max-height: 100%;
@@ -78,28 +77,31 @@
 
 .weather_item {
   display: flex;
-  gap: 1rem;
   width: 100%;
   padding: 1rem;
   border-radius: 3px;
   background: #ec4c8a;
   justify-content: space-between;
   flex-wrap: wrap;
-  text-align: center;
+}
+
+.weather_item:nth-child(even) {
+  background: #d24179;
 }
 
 .weather_item span:nth-child(1) {
   color: #030001;
   font-weight: bold;
   font-size: 1.1rem;
-  display: flex;
-  gap: 1rem;
 }
 
 .weather_item span:nth-child(2) {
   color: #fff;
-  text-align: center;
   align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.5rem;
 }
 
 @media (min-width: 768px) {

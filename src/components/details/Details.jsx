@@ -7,6 +7,7 @@ import { FaWind, FaCloud } from 'react-icons/fa';
 import {
   TbTemperature,
   TbTemperatureMinus,
+  TbTemperaturePlus,
 } from 'react-icons/tb';
 import { fetchWeather } from '../../redux/weather/weather';
 import classes from './Details.module.css';
@@ -90,7 +91,12 @@ const Details = () => {
                 {' '}
                 Max Temperature:
               </span>
-              <span>{weather.temp_max}</span>
+              <span>
+                {weather.temp_max}
+                {' '}
+                &#8451;
+                <TbTemperaturePlus />
+              </span>
             </li>
             <li className={classes.weather_item}>
               <span>
