@@ -7,7 +7,6 @@ import { FaWind, FaCloud } from 'react-icons/fa';
 import {
   TbTemperature,
   TbTemperatureMinus,
-  TbTemperaturePlus,
 } from 'react-icons/tb';
 import { fetchWeather } from '../../redux/weather/weather';
 import classes from './Details.module.css';
@@ -39,27 +38,31 @@ const Details = () => {
   if (country && weather.name) {
     weatherContent = (
       <>
-        <div className={classes.map}>
-          <img src={country.map} alt={country.name} />
+        <div className={classes.details}>
+          <div className={classes.map}>
+            <img src={country.map} alt={country.name} />
+          </div>
+          <div className={classes.details_header}>
+            <h2>{country.name}</h2>
+            <p>{weather.description}</p>
+            <img src={weather.icon} alt={weather.name} />
+          </div>
         </div>
+
         <div className={classes.weather}>
-          <h2>{country.name}</h2>
-          <img src={weather.icon} alt={weather.name} />
-          <p>{weather.description}</p>
           <ul className={classes.weather_info}>
             <li className={classes.weather_item}>
               <span>
-                <TbTemperature />
                 Temperature:
               </span>
               <span>
                 {weather.temp}
                 &#8451;
+                <TbTemperature />
               </span>
             </li>
             <li className={classes.weather_item}>
               <span>
-                <TbTemperature />
                 {' '}
                 Feels Like:
               </span>
@@ -67,11 +70,11 @@ const Details = () => {
 
                 {weather.feels_like}
                 &#8451;
+                <TbTemperature />
               </span>
             </li>
             <li className={classes.weather_item}>
               <span>
-                <TbTemperatureMinus />
                 {' '}
                 Min Temperature:
               </span>
@@ -79,11 +82,11 @@ const Details = () => {
                 {weather.temp_min}
                 {' '}
                 &#8451;
+                <TbTemperatureMinus />
               </span>
             </li>
             <li className={classes.weather_item}>
               <span>
-                <TbTemperaturePlus />
                 {' '}
                 Max Temperature:
               </span>
@@ -91,7 +94,6 @@ const Details = () => {
             </li>
             <li className={classes.weather_item}>
               <span>
-                <WiHumidity />
                 {' '}
                 Humidity:
               </span>
@@ -99,39 +101,38 @@ const Details = () => {
                 {weather.humidity}
                 {' '}
                 %
+                <WiHumidity />
               </span>
             </li>
             <li className={classes.weather_item}>
               <span>
-                <GiPressureCooker />
-                {' '}
                 Pressure:
               </span>
               <span>
                 {weather.pressure}
                 &#13169;
+                <GiPressureCooker />
               </span>
             </li>
             <li className={classes.weather_item}>
               <span>
-                <FaWind />
-                {' '}
                 Wind Speed:
               </span>
               <span>
                 {weather.wind_speed}
                 {' '}
                 meter/sec
+                <FaWind />
               </span>
             </li>
             <li className={classes.weather_item}>
               <span>
-                <FaCloud />
                 Cloud cover:
               </span>
               <span>
                 {weather.cloud}
                 %
+                <FaCloud />
               </span>
             </li>
           </ul>

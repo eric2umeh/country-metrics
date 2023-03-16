@@ -20,14 +20,26 @@
   border-radius: 3px;
 }
 
-.map {
+.details {
+  display: flex;
+  justify-content: space-around;
   height: 100%;
+}
+
+.map {
+  height: 40%;
 }
 
 .map img {
   max-height: 100%;
-  width: 100%;
   opacity: 0.2;
+}
+
+.details_header {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 40px;
 }
 
 .weather {
@@ -40,7 +52,7 @@
   align-items: center;
   flex-direction: column;
   padding: 1rem;
-  padding-top: 3rem;
+  padding-top: 15rem;
   overflow-y: scroll;
 }
 
