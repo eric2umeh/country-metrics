@@ -1,8 +1,7 @@
 .country {
   padding: 0.5rem 1rem;
-  width: 48%;
+  width: 50%;
   position: relative;
-  margin-bottom: 1rem;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -45,8 +44,8 @@
 }
 
 .arrowBtn {
-  color: #fff;
-  font-size: 1.5rem;
+  color: #e3d2d2;
+  font-size: 1.2rem;
 }
 
 .arrowBtn:active {
@@ -61,7 +60,6 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: 0.5rem;
 }
 
 @media (min-width: 768px) {
