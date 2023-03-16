@@ -19,7 +19,7 @@ describe('Test App.js with pages', () => {
         </Provider>
       </MemoryRouter>,
     );
-    const txt = screen.getByText('Weather Forecast');
+    const txt = screen.getByText('Country Metrics');
     expect(txt).toBeInTheDocument();
   });
 
