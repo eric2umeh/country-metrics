@@ -51,6 +51,9 @@ This is a Microverce React capstone project. Users can see a list of continent a
 
 - [Live Project Demo](https://www.loom.com/share/128e12786dd84a8bb608432c95d0a016)
 
+# Project demo picture
+- ![Capture](src/assets/country-metrics.png)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
